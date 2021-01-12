@@ -31,10 +31,10 @@ required-features = ["cli"]
 [dependencies]
 # LNP/BP crates
 amplify = "2.4"
-amplify_derive = "2.4.1"
-lnpbp = { version = "~0.2.2", features = ["lnp", "url", "websockets", "keygen"] }
-lnpbp_derive = "~0.2.0"
-lnpbp_services = "~0.2.0"
+amplify_derive = "2.4.3"
+lnpbp = { version = "~0.2.2", git = "https://github.com/claudiosdc/rust-lnpbp.git", branch = "v0.2_syn_mod_fix", features = ["lnp", "url", "websockets", "keygen"] }
+lnpbp_derive = { version = "~0.2.0", git = "https://github.com/claudiosdc/rust-lnpbp.git", branch = "v0.2_syn_mod_fix"}
+lnpbp_services = { version = "~0.2.1", git = "https://github.com/claudiosdc/rust-lnpbp.git", branch = "v0.2_syn_mod_fix"}
 # Rust language
 lazy_static = "~1.4.0"
 nix = { version = "~0.19.0", optional = true }
