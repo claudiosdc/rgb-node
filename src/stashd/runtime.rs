@@ -282,6 +282,7 @@ impl Runtime {
 
         // [VALIDATION]: Validate genesis node against the scheme
         let validation_status = consignment.validate(&schema, &self.electrum);
+        debug!(">>>>>> Consignment validation result: {}", validation_status);
 
         self.storage.add_genesis(&consignment.genesis)?;
 
