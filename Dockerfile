@@ -16,7 +16,7 @@ WORKDIR "$SRC_DIR"
 COPY src src
 COPY Cargo.lock Cargo.toml README.md ./
 
-RUN cargo install --path . --root "${BUILDER_DIR}"
+RUN cargo install --path . --root "${BUILDER_DIR}" --bins --all-features
 
 
 FROM debian:buster-slim
