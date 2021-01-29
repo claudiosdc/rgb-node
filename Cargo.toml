@@ -33,11 +33,11 @@ required-features = ["cli"]
 amplify = "3"
 amplify_derive = "2.4.2"
 lnpbp = "0.3"
-rgb-core = "0.3"
-rgb20 = { version = "0.3", optional = true }
-rgb21 = { version = "0.3.0-beta.3", optional = true }
-rgb22 = { version = "0.3.0-beta.3", optional = true }
-rgb23 = { version = "0.3.0-beta.3", optional = true }
+rgb-core = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix" }
+rgb20 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix", optional = true }
+rgb21 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix", optional = true }
+rgb22 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix", optional = true }
+rgb23 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix", optional = true }
 internet2 = { version = "0.3.7", default-features = false, features = ["derive"] }
 microservices = { version = "0.3.7", default-features = false }
 # Bitcoin
