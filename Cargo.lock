@@ -898,6 +898,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "internet2"
+version = "0.3.7"
+source = "git+https://github.com/claudiosdc/rust-internet2.git?branch=v0.3.7_desc_wallet_fix#c88e59c38f20745da7faac6ec72d670e8c25de5a"
+dependencies = [
+ "amplify",
+ "amplify_derive",
+ "bitcoin",
+ "chacha20poly1305",
+ "descriptor-wallet 0.3.5",
+ "inet2_addr",
+ "inet2_derive",
+ "lazy_static",
+ "rgb-core 0.3.0 (git+https://github.com/claudiosdc/rgb-core.git?branch=v0.3.0_desc_wallet_fix)",
+ "serde 1.0.120",
+ "serde_with",
+ "serde_with_macros",
+ "strict_encoding",
+ "url",
+ "zmq",
+]
+
+[[package]]
 name = "itoa"
 version = "0.4.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1004,7 +1026,7 @@ dependencies = [
  "amplify_derive",
  "bitcoin",
  "descriptor-wallet 0.3.3",
- "internet2",
+ "internet2 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "lazy_static",
  "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.120",
@@ -1105,7 +1127,7 @@ dependencies = [
  "clap",
  "config",
  "env_logger",
- "internet2",
+ "internet2 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "lnp-core",
  "log",
  "serde 1.0.120",
@@ -1721,7 +1743,7 @@ dependencies = [
  "electrum-client",
  "env_logger",
  "hammersbald",
- "internet2",
+ "internet2 0.3.7 (git+https://github.com/claudiosdc/rust-internet2.git?branch=v0.3.7_desc_wallet_fix)",
  "lazy_static",
  "lnpbp 0.3.0 (git+https://github.com/claudiosdc/rust-lnpbp.git?branch=v0.3.0_desc_wallet_fix)",
  "log",
