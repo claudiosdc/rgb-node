@@ -503,6 +503,8 @@ dependencies = [
  "lightning_encoding",
  "miniscript",
  "regex",
+ "serde 1.0.120",
+ "serde_with",
  "strict_encoding",
 ]
 
@@ -885,7 +887,7 @@ dependencies = [
  "inet2_addr",
  "inet2_derive",
  "lazy_static",
- "lnpbp",
+ "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "rgb-core 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.120",
  "serde_with",
@@ -1004,7 +1006,7 @@ dependencies = [
  "descriptor-wallet 0.3.3",
  "internet2",
  "lazy_static",
- "lnpbp",
+ "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.120",
  "serde_with",
  "strict_encoding",
@@ -1022,6 +1024,26 @@ dependencies = [
  "bitcoin_hashes 0.9.4",
  "client_side_validation",
  "descriptor-wallet 0.3.3",
+ "lazy_static",
+ "miniscript",
+ "serde 1.0.120",
+ "serde_with",
+ "serde_with_macros",
+ "strict_encoding",
+ "strict_encoding_derive",
+]
+
+[[package]]
+name = "lnpbp"
+version = "0.3.0"
+source = "git+https://github.com/claudiosdc/rust-lnpbp.git?branch=v0.3.0_desc_wallet_fix#acb2dd6c52efad095d13b2a9817083c007d53d87"
+dependencies = [
+ "amplify",
+ "amplify_derive",
+ "bitcoin",
+ "bitcoin_hashes 0.9.4",
+ "client_side_validation",
+ "descriptor-wallet 0.3.5",
  "lazy_static",
  "miniscript",
  "serde 1.0.120",
@@ -1585,7 +1607,7 @@ dependencies = [
  "grin_secp256k1zkp",
  "inflate",
  "lazy_static",
- "lnpbp",
+ "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "miniscript",
  "num-derive",
  "num-traits 0.2.14",
@@ -1613,7 +1635,7 @@ dependencies = [
  "grin_secp256k1zkp",
  "inflate",
  "lazy_static",
- "lnpbp",
+ "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "miniscript",
  "num-derive",
  "num-traits 0.2.14",
@@ -1633,7 +1655,7 @@ dependencies = [
  "amplify_derive",
  "bitcoin",
  "chrono",
- "lnpbp",
+ "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "regex",
  "rgb-core 0.3.0 (git+https://github.com/claudiosdc/rgb-core.git?branch=v0.3.0_desc_wallet_fix)",
  "serde 1.0.120",
@@ -1650,7 +1672,7 @@ dependencies = [
  "amplify_derive",
  "bitcoin",
  "chrono",
- "lnpbp",
+ "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "rgb-core 0.3.0 (git+https://github.com/claudiosdc/rgb-core.git?branch=v0.3.0_desc_wallet_fix)",
 ]
 
@@ -1663,7 +1685,7 @@ dependencies = [
  "amplify_derive",
  "bitcoin",
  "chrono",
- "lnpbp",
+ "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "rgb-core 0.3.0 (git+https://github.com/claudiosdc/rgb-core.git?branch=v0.3.0_desc_wallet_fix)",
 ]
 
@@ -1676,7 +1698,7 @@ dependencies = [
  "amplify_derive",
  "bitcoin",
  "chrono",
- "lnpbp",
+ "lnpbp 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "rgb-core 0.3.0 (git+https://github.com/claudiosdc/rgb-core.git?branch=v0.3.0_desc_wallet_fix)",
 ]
 
@@ -1701,7 +1723,7 @@ dependencies = [
  "hammersbald",
  "internet2",
  "lazy_static",
- "lnpbp",
+ "lnpbp 0.3.0 (git+https://github.com/claudiosdc/rust-lnpbp.git?branch=v0.3.0_desc_wallet_fix)",
  "log",
  "microservices",
  "nix",

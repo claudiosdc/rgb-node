@@ -32,7 +32,7 @@ required-features = ["cli"]
 # LNP/BP crates
 amplify = "3"
 amplify_derive = "2.4.2"
-lnpbp = "0.3"
+lnpbp = { git = "https://github.com/claudiosdc/rust-lnpbp.git", branch = "v0.3.0_desc_wallet_fix" }
 rgb-core = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix" }
 rgb20 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix", optional = true }
 rgb21 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix", optional = true }
