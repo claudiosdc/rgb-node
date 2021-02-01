@@ -39,7 +39,7 @@ rgb21 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_d
 rgb22 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix", optional = true }
 rgb23 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "v0.3.0_desc_wallet_fix", optional = true }
 internet2 = { git = "https://github.com/claudiosdc/rust-internet2.git", branch = "v0.3.7_desc_wallet_fix", default-features = false, features = ["derive"] }
-microservices = { version = "0.3.7", default-features = false }
+microservices = { git = "https://github.com/claudiosdc/rust-internet2.git", branch = "v0.3.7_desc_wallet_fix", default-features = false }
 # Bitcoin
 bitcoin = "0.26"
 electrum-client = { version = "0.6", optional = true }
