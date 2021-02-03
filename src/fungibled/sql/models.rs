@@ -108,7 +108,6 @@ impl SqlAsset {
             self.asset_date,
             known_issues,
             known_inflation,
-            unknown_inflation,
             read_allocations(&self, connection)?,
         ))
     }
@@ -184,13 +183,13 @@ impl SqlInflation {
         }
 
         // Push the unknown inflation entry with txid and vout as None.
-        result.push(Self {
+        /*result.push(Self {
             id: last_added_id + 1,
             sql_asset_id: table_asset.id,
             outpoint_txid: None,
             outpoint_vout: None,
             accounting_amount: *asset.unknown_inflation() as i64,
-        });
+        });*/
 
         Ok(result)
     }

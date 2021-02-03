@@ -515,7 +515,7 @@ dependencies = [
  "libsqlite3-sys",
  "num-bigint",
  "num-integer",
- "num-traits 0.2.14",
+ "num-traits 0.1.43",
  "uuid",
 ]
 
@@ -1565,7 +1565,7 @@ checksum = "b5eb417147ba9860a96cfe72a0b93bf88fee1744b5636ec99ab20c1aa9376581"
 [[package]]
 name = "rgb-core"
 version = "0.4.0-beta"
-source = "git+https://github.com/rgb-org/rgb-core#46d92fc46ec079e10eeb5d3973186f79bce58c0c"
+source = "git+https://github.com/rgb-org/rgb-core#39dfc511d167039d346408fab61ccff0d46e78b9"
 dependencies = [
  "amplify",
  "amplify_derive",
@@ -1594,7 +1594,7 @@ dependencies = [
 [[package]]
 name = "rgb20"
 version = "0.4.0-alpha.1"
-source = "git+https://github.com/rgb-org/rgb-core#46d92fc46ec079e10eeb5d3973186f79bce58c0c"
+source = "git+https://github.com/rgb-org/rgb-core#39dfc511d167039d346408fab61ccff0d46e78b9"
 dependencies = [
  "amplify",
  "amplify_derive",
@@ -1611,7 +1611,7 @@ dependencies = [
 [[package]]
 name = "rgb21"
 version = "0.4.0-alpha.1"
-source = "git+https://github.com/rgb-org/rgb-core#46d92fc46ec079e10eeb5d3973186f79bce58c0c"
+source = "git+https://github.com/rgb-org/rgb-core#39dfc511d167039d346408fab61ccff0d46e78b9"
 dependencies = [
  "amplify",
  "amplify_derive",
@@ -1624,7 +1624,7 @@ dependencies = [
 [[package]]
 name = "rgb22"
 version = "0.4.0-alpha.1"
-source = "git+https://github.com/rgb-org/rgb-core#46d92fc46ec079e10eeb5d3973186f79bce58c0c"
+source = "git+https://github.com/rgb-org/rgb-core#39dfc511d167039d346408fab61ccff0d46e78b9"
 dependencies = [
  "amplify",
  "amplify_derive",
@@ -1637,7 +1637,7 @@ dependencies = [
 [[package]]
 name = "rgb23"
 version = "0.4.0-alpha.1+1"
-source = "git+https://github.com/rgb-org/rgb-core#46d92fc46ec079e10eeb5d3973186f79bce58c0c"
+source = "git+https://github.com/rgb-org/rgb-core#39dfc511d167039d346408fab61ccff0d46e78b9"
 dependencies = [
  "amplify",
  "amplify_derive",
