@@ -33,11 +33,11 @@ required-features = ["cli"]
 amplify = "3"
 amplify_derive = "2.4.2"
 lnpbp = { git = "https://github.com/LNP-BP/rust-lnpbp" }
-rgb-core = { git = "https://github.com/rgb-org/rgb-core" }
-rgb20 = { git = "https://github.com/rgb-org/rgb-core", optional = true }
-rgb21 = { git = "https://github.com/rgb-org/rgb-core", optional = true }
-rgb22 = { git = "https://github.com/rgb-org/rgb-core", optional = true }
-rgb23 = { git = "https://github.com/rgb-org/rgb-core", optional = true }
+rgb-core = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "nightly_changes" }
+rgb20 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "nightly_changes", optional = true }
+rgb21 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "nightly_changes", optional = true }
+rgb22 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "nightly_changes", optional = true }
+rgb23 = { git = "https://github.com/claudiosdc/rgb-core.git", branch = "nightly_changes", optional = true }
 internet2 = { git = "https://github.com/internet2-org/rust-internet2" }
 microservices = { git = "https://github.com/internet2-org/rust-internet2", default-features = false }
 # Bitcoin
